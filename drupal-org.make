@@ -1,3 +1,5 @@
+; $Id$
+
 core = 6.16
 
 ; Profiles
