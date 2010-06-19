@@ -4,7 +4,7 @@ core = 6.17
 
 ; Profiles
 projects[profiler][version] = 1.0
-projects[profiler][subdir] = profiles
+projects[profiler][directory] = profiles/profiler
 
 ; Modules
 projects[admin_menu] = 1.5
