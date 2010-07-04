@@ -14,7 +14,7 @@
  */
 
 // Don't leave this out or you'll be sorry! :)
-require_once('./profiles/profiler/profiler.inc');
+require_once('./profiles/profiler_example/profiles/profiler/profiler.inc');
 
 /**
  * Return a description of the profile for the initial installation screen. 
