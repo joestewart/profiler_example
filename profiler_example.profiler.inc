@@ -249,6 +249,11 @@ variables[site_footer] = Profiler Example
 variables[site_frontpage] = node/1
 variables[theme_settings][toggle_node_info_page] = 0
 
+; You may also want to set the clean url variable if you don't need clean urls. 
+; Since we bypassed the configuration screen, it is enabled by default, so to 
+; disable it you'll want to uncomment this line:
+;variables[clean_url] = 0
+
 
 ; -----------------------------------------------------------------------------
 ;                                 Permissions
