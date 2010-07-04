@@ -226,7 +226,7 @@ input-formats[wysiwyg][wysiwyg][settings][remove_linebreaks] = 1
 input-formats[wysiwyg][wysiwyg][settings][apply_source_formatting] = 0
 input-formats[wysiwyg][wysiwyg][settings][paste_auto_cleanup_on_paste] = 0
 input-formats[wysiwyg][wysiwyg][settings][block_formats] = p,h2,h3,h4,h5,blockquote
-input-formats[WYSIWYG][wysiwyg][settings][css_classes] = "Highlight=highlight
+input-formats[wysiwyg][wysiwyg][settings][css_classes] = "Highlight=highlight
 Float Left=left
 Float Right=right"
 
