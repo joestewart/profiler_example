@@ -20,10 +20,7 @@
 ; parent items:
 ;
 ; - modules
-; - modules-unset (This comes in handy for Sub Profiler includes, as you can 
-;                 unset modules that are set by the base Profiler include here)
 ; - features
-; - features-unset (@see modules-unset)
 ; - roles
 ; - users
 ; - input-formats
@@ -37,6 +34,7 @@
 ; -----------------------------------------------------------------------------
 
 name = Profiler Example
+description = An example Install profile that uses Profiler.
 core = 6.x
 theme = chameleon
 
