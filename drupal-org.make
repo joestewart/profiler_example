@@ -5,6 +5,7 @@ core = 6.17
 ; Profiles
 libraries[profiler][download][type] = cvs
 libraries[profiler][download][module] = contributions/profiles/profiler
+libraries[profiler][download][date] = 2010-09-05
 
 ; Modules
 projects[admin_menu] = 1.5
