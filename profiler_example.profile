@@ -13,5 +13,5 @@
  * you've got yourself an install profile!
  */
 
-!function_exists('profiler_v1') ? require_once('libraries/profiler/profiler.inc') : FALSE;
-profiler_v1('profiler_example');
+!function_exists('profiler_v2') ? require_once('libraries/profiler/profiler.inc') : FALSE;
+profiler_v2('profiler_example');
