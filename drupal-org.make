@@ -3,8 +3,7 @@
 core = 6.17
 
 ; Profiles
-libraries[profiler][download][type] = cvs
-libraries[profiler][download][module] = contributions/modules/profiler
+projects[profiler][version] = 1.0
 
 ; Modules
 projects[admin_menu] = 1.5
