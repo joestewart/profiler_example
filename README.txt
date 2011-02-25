@@ -1,4 +1,3 @@
-# $Id$
 
 Profiler Example is an example Install Profile for use with Profiler. To create 
 your own Install profile, copy the directory that this file resides in, and 
