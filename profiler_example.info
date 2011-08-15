@@ -2,7 +2,7 @@
 ; -----------------------------------------------------------------------------
 ;                             Introduction
 ; -----------------------------------------------------------------------------
-; Well, this is it! An example Profiler include, showing you how to create your 
+; Well, this is it! An example Profiler .info, showing you how to create your
 ; own Install profiles easily. This file uses Drupal's info format, which is 
 ; very similar to PHP's own ini format, however you can use nested arrays in 
 ; Drupal's version, which comes in handy for lots of stuff, as you'll see below.
@@ -33,11 +33,12 @@ core = 6.x
 theme = chameleon
 
 ; -----------------------------------------------------------------------------
-; You could specify this as a base Profiler include by using the following in
-; your own Install profile's Profiler include. Then everything in this file
-; would be merged with your Profiler include:
+; You could specify this as a sub install profile of another Profiler install
+; profile. Then, any configuration in profiler_example_base would be merged
+; with the stuff that's in this profile. Kind of the way that sub themes work,
+; if you're familiar with that.
 ; -----------------------------------------------------------------------------
-; base = profiler_example
+; base = profiler_example_base
 
 
 ; -----------------------------------------------------------------------------
