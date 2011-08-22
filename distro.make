@@ -5,5 +5,8 @@ projects[drupal][type] = core
  
 ; Profiles
 
-projects[] = profiler_example
+projects[profiler_example][type] = profile
+projects[profiler_example][download][type] = git
+projects[profiler_example][download][url] = git://github.com/joestewart/profiler_example.git
+projects[profiler_example][download][branch] = 6.x-2.x
  
