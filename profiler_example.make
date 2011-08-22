@@ -5,6 +5,7 @@ core = 7.x
 projects[admin_menu][subdir] = contrib
 projects[advanced_help][subdir] = contrib
 projects[cck][subdir] = contrib
+projects[cck][version] = 2.x-dev
 projects[date][subdir] = contrib
 projects[features][subdir] = contrib
 projects[globalredirect][subdir] = contrib
