@@ -29,8 +29,8 @@
 
 name = Profiler Example
 description = An example Install profile that uses Profiler.
-core = 6.x
-theme = chameleon
+core = 7.x
+theme = seven 
 
 ; -----------------------------------------------------------------------------
 ; You could specify this as a sub install profile of another Profiler install
@@ -58,19 +58,16 @@ dependencies[] = user
 
 ; Contrib
 dependencies[] = admin_menu
+dependencies[] = ctools
 dependencies[] = date_api
 dependencies[] = imageapi
 dependencies[] = imageapi_gd
-dependencies[] = imagecache
-dependencies[] = imagecache_ui
 dependencies[] = token
 dependencies[] = globalredirect
-dependencies[] = content
-dependencies[] = fieldgroup
-dependencies[] = filefield
-dependencies[] = imagefield
+dependencies[] = cck
+dependencies[] = file
+dependencies[] = image
 dependencies[] = number
-dependencies[] = optionwidgets
 dependencies[] = text
 dependencies[] = views
 dependencies[] = views_ui
